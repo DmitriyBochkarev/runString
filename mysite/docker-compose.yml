@@ -1,0 +1,34 @@
+version: '3'
+services:
+  django_runstring:
+    build: .
+    container_name: runstring_container
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "8000:8000"
+    restart: always
+    depends_on:
+      - runstring_db
+
+  runstring_db:
+    image: postgres
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    container_name: runstring_db
+
+    volumes:
+      - runstring_dbdata:/var/lib/postgresql/data/
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+
+volumes:
+  runstring_dbdata: null
+

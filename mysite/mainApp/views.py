@@ -37,7 +37,7 @@ def index(request):
         def create_image(position, num):
             """Создает изображения для клипа"""
             new_img = Image.new('RGB', (100, 100), )
-            font = ImageFont.truetype("arial.ttf", size=60)
+            font = ImageFont.truetype("./arial.ttf", size=60)
             pencil = ImageDraw.Draw(new_img)
             pencil.text((position, 10), text, font=font, fill='blue')
             new_img.save(f'{num}.png')
@@ -54,15 +54,15 @@ def index(request):
 
         queryset = Requests.objects.create(text=text)
 
-        img_count = len(text)
+        img_count = 24 * 3
         count = 0
         pos = 100
         for i in range(img_count):
             create_image(pos, i)
             count += 1
-            pos -= 30
+            pos -= len(text) / 1.5
 
-        clip_from_image('.', 'runString', 0.25)
+        clip_from_image('.', 'runString', 0.05)
         delete_image()
         return render(request, 'mainApp/basic_success.html', {
             'values': Requests.objects.all().order_by("-date")[:20]})
