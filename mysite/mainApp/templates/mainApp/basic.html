@@ -3,9 +3,24 @@
 {% block content %}
 <div class="jumbotron">
   <div class="container">
+    <video width="400" height="300" controls="controls">
+   <source src="video/runString.ogv" type='video/ogg; codecs="theora, vorbis"'>
+   <source src="video/runString.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+   <source src="video/runString.webm" type='video/webm; codecs="vp8, vorbis"'>
+   <a href="video/runString.mp4">Скачайте видео</a>.
+  </video>
+    <a href="video/runString.mp4" download>Скачайте видео</a>
     <h2><b>Предыдущие запросы</b></h2>
     {%for val in values%}
-      <p><h3>{{val.text}}</h3>{{val.date}}</p>
+      <p><h3>{{val.text}}</h3>
+    {{val.date}}
+    </p>
+    <video controls>
+        <source src="{{val.video.url}}" type="video">{{val.video.url}}
+      </video>
+    <a href="{{val.video.url}}" download>Скачать файл {{val.video.url}}</a>
+
+
     {%endfor%}
   </div>
 </div>

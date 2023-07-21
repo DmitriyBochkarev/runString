@@ -5,6 +5,7 @@ import os.path
 from PIL import Image, ImageDraw, ImageFont
 
 from .models import Requests
+filename = 'runString'
 def index(request):
 
     if request.method == 'POST':
@@ -29,7 +30,9 @@ def index(request):
                 video_merge = concatenate_videoclips(clips, method='compose')
                 video_merge.write_videofile(f"{name_clip}.mp4", fps=24)
                 print(f"[+] Видео создано и сохранено в папку: {path_dir}")
-                return
+                my_path = name_clip + '.' + 'mp4'
+                print(my_path)
+                return my_path
             else:
                 print('[-] Указанной директории не существует')
                 return
@@ -40,7 +43,7 @@ def index(request):
             font = ImageFont.truetype("./arial.ttf", size=60)
             pencil = ImageDraw.Draw(new_img)
             pencil.text((position, 10), text, font=font, fill='blue')
-            new_img.save(f'{num}.png')
+            new_img.save(f'media/{num}.png')
 
         def delete_image():
             """Удаляет изображения после создания клипа"""
@@ -52,7 +55,6 @@ def index(request):
         # основная программа
         text = request.POST.get('text')
 
-        queryset = Requests.objects.create(text=text)
 
         img_count = 24 * 3
         count = 0
@@ -62,10 +64,12 @@ def index(request):
             count += 1
             pos -= len(text) / 1.5
 
-        clip_from_image('.', 'runString', 0.05)
+        video_path = clip_from_image('./media', filename, 0.05)
         delete_image()
-        return render(request, 'mainApp/basic_success.html', {
-            'values': Requests.objects.all().order_by("-date")[:20]})
+        queryset = Requests.objects.create(text=text, video=video_path)
+        context = {'video_path': video_path}
+
+        return render(request, 'mainApp/basic_success.html', context)
 
     else:
 

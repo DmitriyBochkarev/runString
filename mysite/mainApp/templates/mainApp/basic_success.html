@@ -4,7 +4,12 @@
 <div class="jumbotron">
   <div class="container">
 
-      <h1>Видео успешно создано и сохранено в папку с программой</h1>
+      <h1>Видео успешно создано</h1>
+      <video controls>
+        <source src="{{ MEDIA_URL }}/{{video_path}}" type="video/mp4">
+      </video>
+      <a href="{{ MEDIA_URL }}/{{video_path}}" download>Скачать файл {{ MEDIA_URL }}/{{video_path}}</a>
+
 
   </div>
 </div>
