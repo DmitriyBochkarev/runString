@@ -5,7 +5,8 @@ import os.path
 from PIL import Image, ImageDraw, ImageFont
 
 from .models import Requests
-filename = 'runString'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 def index(request):
 
     if request.method == 'POST':
@@ -43,7 +44,10 @@ def index(request):
             font = ImageFont.truetype("./arial.ttf", size=60)
             pencil = ImageDraw.Draw(new_img)
             pencil.text((position, 10), text, font=font, fill='blue')
-            new_img.save(f'media/{num}.png')
+
+            imagefilename = f'{num}.png'
+            filepath = BASE_DIR + '/media/' + imagefilename
+            new_img.save(filepath)
 
         def delete_image():
             """Удаляет изображения после создания клипа"""
@@ -63,9 +67,9 @@ def index(request):
             create_image(pos, i)
             count += 1
             pos -= len(text) / 1.5
-
-        video_path = clip_from_image('./media', filename, 0.05)
-        delete_image()
+        videofilename = 'runString'
+        video_path = clip_from_image(MEDIA_ROOT, videofilename, 0.05)
+        # delete_image()
         queryset = Requests.objects.create(text=text, video=video_path)
         context = {'video_path': video_path}
 
@@ -78,3 +82,5 @@ def index(request):
 def contact(request):
     return render(request, 'mainApp/basic.html', {
         'values': Requests.objects.all().order_by("-date")[:20]})
+
+
