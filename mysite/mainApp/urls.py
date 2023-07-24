@@ -25,4 +25,5 @@ from .models import Requests
 urlpatterns = [
     path('', views.index, name='index'),
     path('contact', views.contact, name='contact'),
+    path('downloadpdf', views.download_pdf_file, name='download_pdf_file'),
 ]

@@ -8,7 +8,7 @@
       <video controls>
         <source src="{{ MEDIA_URL }}/{{video_path}}" type="video/mp4">
       </video>
-      <a href="{{ MEDIA_URL }}/{{video_path}}" download>Скачать файл {{ MEDIA_URL }}/{{video_path}}</a>
+      <a href="{% url 'download_pdf_file'  %}" download>Скачать файл {{ MEDIA_URL }}/{{video_path}}</a>
 
 
   </div>
