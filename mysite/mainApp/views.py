@@ -84,3 +84,5 @@ def contact(request):
         'values': Requests.objects.all().order_by("-date")[:20]})
 
 
+
+
