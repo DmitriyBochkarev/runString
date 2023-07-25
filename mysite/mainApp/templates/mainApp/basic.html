@@ -5,14 +5,13 @@
   <div class="container">
 
     <h2><b>Предыдущие запросы</b></h2>
-    {%for val in values%}
-      <p><h3>{{val.text}}</h3>
-    {{val.date}}
-    </p>
+      {%for val in values%}
+        <p>
+          <h3>{{val.text}}</h3>
+          {{val.date}}
+        </p>
 
-
-
-    {%endfor%}
+      {%endfor%}
   </div>
 </div>
 {% endblock %}

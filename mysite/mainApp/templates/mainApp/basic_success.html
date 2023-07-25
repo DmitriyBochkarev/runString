@@ -1,14 +1,12 @@
 {% extends "mainApp/wrapper.html" %}
 
 {% block content %}
-<div class="jumbotron">
-  <div class="container">
+    <div class="jumbotron">
+      <div class="container">
 
-      <h1>Видео успешно создано</h1>
+          <h1>Видео успешно создано</h1>
+          <a href="{% url 'download_pdf_file'  %}" class="btn btn-success" download>Скачать файл {{ MEDIA_URL }}/{{video_path}}</a>
 
-      <a href="{% url 'download_pdf_file'  %}" class="btn btn-success" download>Скачать файл {{ MEDIA_URL }}/{{video_path}}</a>
-
-
-  </div>
-</div>
+      </div>
+    </div>
 {% endblock %}

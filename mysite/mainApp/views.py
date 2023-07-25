@@ -42,7 +42,9 @@ def index(request):
         def create_image(position, num):
             """Создает изображения для клипа"""
             new_img = Image.new('RGB', (100, 100), )
-            font = ImageFont.truetype("./arial.ttf", size=60)
+            fontname = 'arial.ttf'
+            fontpath = BASE_DIR + '/media/' + fontname
+            font = ImageFont.truetype(fontpath, size=60)
             pencil = ImageDraw.Draw(new_img)
             pencil.text((position, 10), text, font=font, fill='blue')
 
