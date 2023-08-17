@@ -6,85 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e99dd62d-b1e7-4404-8704-a5a25e01203e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/arial.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/basic_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/basic_success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainApp/templates/mainApp/wrapper.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/mainApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mainApp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/11.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/12.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/13.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/13.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/14.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/14.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/15.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/15.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/16.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/17.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/17.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/18.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/18.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/19.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/19.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/20.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/21.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/21.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/22.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/22.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/23.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/23.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/24.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/24.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/25.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/25.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/26.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/26.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/27.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/27.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/28.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/28.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/29.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/29.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/30.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/31.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/32.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/33.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/33.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/34.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/34.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/35.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/35.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/36.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/36.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/37.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/37.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/38.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/38.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/39.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/39.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/40.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/41.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/41.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/42.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/42.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/43.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/44.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/44.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/45.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/45.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/46.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/46.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/47.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/47.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/48.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/48.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/49.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/49.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/50.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/50.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/51.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/51.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/52.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/52.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/53.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/53.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/54.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/54.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/55.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/56.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/56.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/57.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/57.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/58.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/58.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/59.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/59.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/6.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/60.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/60.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/61.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/61.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/62.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/62.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/63.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/63.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/64.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/65.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/66.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/66.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/67.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/67.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/68.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/68.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/69.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/69.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/70.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/70.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/71.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/71.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/media/runString.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/media/runString.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
