@@ -36,8 +36,26 @@ certbot certonly --standalone -d ваш-домен.ru
 ```
 
 ## Копируем сертификаты в папку ssl
+```
 cp /etc/letsencrypt/live/ваш-домен.ru/fullchain.pem .
 cp /etc/letsencrypt/live/ваш-домен.ru/privkey.pem .
+```
+
 
 ## Отредактируйте файл nginx.conf
 
+```
+server {
+    listen 443 ssl;
+    server_name ваш-домен.ru;
+
+    ssl_certificate /etc/nginx/ssl/fullchain.pem;
+    ssl_certificate_key /etc/nginx/ssl/privkey.pem;
+
+    location / {
+        proxy_pass http://web:8000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
